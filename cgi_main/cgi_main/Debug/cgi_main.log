@@ -1,0 +1,19 @@
+﻿Build started 29.03.2015 3:58:14.
+Project "D:\temp\Dropbox\cgi\cgi_main\cgi_main\cgi_main.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "Debug\cgi_main.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Main.cpp
+  Main.cpp
+d:\temp\dropbox\cgi\src\main.cpp(84): error C2664: 'void std::vector<_Ty>::push_back(_Ty &&)' : cannot convert parameter 1 from 'const char *' to 'char *const &&'
+          with
+          [
+              _Ty=char *const 
+          ]
+          Reason: cannot convert from 'const char *' to 'char *const '
+          Conversion loses qualifiers
+Done Building Project "D:\temp\Dropbox\cgi\cgi_main\cgi_main\cgi_main.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.10
